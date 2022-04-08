@@ -18,6 +18,12 @@ article{
     background-color: rgb(161, 165, 165);
     border-radius: 30px;
     margin-top: 3rem;
+    box-shadow: 2px 2px 7px 0px #000000;
+}
+
+aside{
+    overflow: hidden;
+    border-radius: 0px 30px 30px 0px;
 }
 
 img{
@@ -44,16 +50,18 @@ main{
 div{
     height: 2rem;
     width: 2rem;
-    background-color: rgb(95, 67, 196);
+    background: rgb(0,155,255);
+    background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(6,74,115,1) 100%);
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     border-radius: 100px;
     margin-top: 4rem;
     font-family: "nul";
+    letter-spacing: 0.2rem;
 }
 
 .bouton{
@@ -70,6 +78,10 @@ h3{
     font-weight: 400;
 }
 
-img{transition: transform .2s;}
+img{transition: transform .5s;}
 
-img:hover{transform: scale(1.02);}
+img:hover{transform: scale(1.2);}
+
+div{transition: transform .2s;}
+
+div:hover{transform: scale(1.02);}

@@ -12,6 +12,7 @@ function affichage(element){
             let img = document.createElement("img");
             let article = document.createElement("article");
             let main = document.createElement("main");
+            let aside = document.createElement("aside");
 
             let source = json[i]["download_url"];
             source = source.replace(json[i]["height"], "600");
@@ -27,7 +28,8 @@ function affichage(element){
             article.append(main);
             main.append(h1);
             main.append(bouton);
-            article.append(img);
+            article.append(aside);
+            aside.append(img);
         }
 
 
